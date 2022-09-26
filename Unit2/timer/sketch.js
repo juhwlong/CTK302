@@ -5,8 +5,8 @@ function setup() {
   createCanvas(400, 400);
   textAlign(CENTER);
   i1 = loadImage("assests/birthday.JPG");
-  i2 = loadImage("assests/bzneez.JPG");
-  i3 = loadImage("assests/landon.JPG");
+  i2 = loadImage("assests/bzneez.jpg");
+  i3 = loadImage("assests/landon.jpg");
   imageMode(CENTER);
 }
 
