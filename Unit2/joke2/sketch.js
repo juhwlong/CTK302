@@ -8,12 +8,12 @@ function setup() {
 function draw() {
 switch(state){
 case 0:
-  background("#990BCD");
-  text("What did Batman say to robin before they got in the car?",width/2,height/2);
+  background("#088E35");
+  text("Where did Sally go after the explosion?",width/2,height/2);
   break;
   case 1:
-    background("#0535B7");
-    text("Get in the car.",width/2,height/2);
+    background("#D71515");
+    text("Everywhere.",width/2,height/2);
     break;
 }
 timer++;

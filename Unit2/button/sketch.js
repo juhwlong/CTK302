@@ -7,12 +7,12 @@ function setup() {
 function draw() {
 switch(state){
 case 0:
-  background("#990BCD");
-  text("What did Batman say to robin before they got in the car?",width/2,height/2);
+  background("#CD0EAD");
+  text("Do you know whats odd?",width/2,height/2);
   break;
   case 1:
-    background("#0535B7");
-    text("Get in the car.",width/2,height/2);
+    background("#0EC0CD");
+    text("Every other number.",width/2,height/2);
     break;
 }
 rect(100,100,100,100);
