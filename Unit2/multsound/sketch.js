@@ -16,25 +16,29 @@ function draw() {
   switch (state) {
     case -1:
       text("please click to begin", 100, 100);
+      break;
     case 0:
+      background("blue");
       if(!s1.isPlaying()){
         s1.play();
       }
-      text("0", 100, 100);
+      text("All That", 100, 100);
       break;
 
     case 1:
       if(!s2.isPlaying()){
         s2.play();
       }
-      text("1", 100, 100);
+      background("green");
+      text("Creative Minds", 100, 100);
       break;
 
     case 2:
-      if(!s2.isPlaying()){
-        s2.play();
+      if(!s3.isPlaying()){
+        s3.play();
       }
-      text("2", 100, 100);
+      background("orange");
+      text("New Dawn", 100, 100);
       break;
 
   }
