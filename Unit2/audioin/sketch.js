@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background("green");
+  background("blue");
 
   // get the sound input
   vol = mic.getLevel(); // returned level is between 0 and 1
@@ -49,16 +49,19 @@ function draw() {
   text("z = " + z, 300, 20);
   switch (z) {
     case 0:
-      text("case 0", 100, 350);
+      text("quiet", 100, 350);
       break;
     case 1:
-      text("case 1", 100, 350);
+      background("orange");
+      text("little louder", 100, 350);
       break;
     case 2:
-      text("case 2", 100, 350);
+      background("red");
+      text("pretty loud", 100, 350);
       break;
     default:
-      text("case 3", 100, 350);
+      background("purple");
+      text("geez shut up", 100, 350);
       break;
   }
 }
