@@ -19,7 +19,7 @@ function draw() {
 background("lightblue");
 fill("black");
 text("Don't you dare click the sun on a red light!",400,500);
-text(mouseX +","+ mouseY, 20,20) ;
+text("Code freeze was 6:08 on 10/12/22", 100,20) ;
 fill("yellow");
 image(i3,600,100,200,200);
 image(i4,100,100,150,150);
