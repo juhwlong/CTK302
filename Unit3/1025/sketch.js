@@ -13,6 +13,7 @@ function setup() {
 
 function draw() {
   background("grey");
+  cars.push(new Car());
   for(let i=0; i <cars.length; i++){
   cars[i].display();
   cars[i].move();
@@ -29,7 +30,7 @@ class Car {
 
   // constructor
   constructor() {
-    this.pos = createVector(width/2,height-80) ;
+    this.pos = createVector(100,100) ;
     this.vel = createVector(random(10),random(10)) ;// initialize your attributes here
     this.r=random(255);
     this.g=random(255);
@@ -42,7 +43,7 @@ class Car {
 
   display() {
     fill(this.r,this.g,this.b,this.a);
-    ellipse(this.pos.x,this.pos.y,this.s);
+    text("help",this.pos.x,this.pos.y,this.s);
   }
 
   move() {
